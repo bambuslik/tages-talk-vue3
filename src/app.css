@@ -1,0 +1,19 @@
+@import 'assets/css/normalize.css';
+
+@font-face {
+    font-family: "Poppins";
+    src: url('~@/assets/fonts/Poppinsregular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('~@/assets/fonts/Poppinspoppins-boldsemibold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}

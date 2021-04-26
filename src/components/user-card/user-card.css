@@ -1,0 +1,55 @@
+.user-card {
+  background: #F4F7FE;
+  border-radius: 8px;
+  padding: 20px 30px;
+}
+
+.user-card__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.user-card__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.user-card__name {
+  padding-top: 10px;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  overflow: hidden;
+}
+
+.user-card__email {
+  padding-top: 5px;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #777982;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .user-card {
+    padding: 40px;
+  }
+
+  .user-card__img {
+    width: 104px;
+    height: 104px;
+  }
+
+  .user-card__name {
+    padding-top: 15px;
+  }
+}
