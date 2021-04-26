@@ -1,4 +1,4 @@
-# tages-talk-vue3_2
+# tages-talk-vue3
 
 ## Project setup
 ```
